@@ -9,13 +9,41 @@
 /* Begin PBXBuildFile section */
 		97753DB02A61BD73002E5FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DAF2A61BD73002E5FFD /* AppDelegate.swift */; };
 		97753DB22A61BD73002E5FFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DB12A61BD73002E5FFD /* SceneDelegate.swift */; };
-		97753DB42A61BD73002E5FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DB32A61BD73002E5FFD /* ViewController.swift */; };
-		97753DB72A61BD73002E5FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97753DB52A61BD73002E5FFD /* Main.storyboard */; };
+		97753DB42A61BD73002E5FFD /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DB32A61BD73002E5FFD /* CalculatorVC.swift */; };
 		97753DB92A61BD74002E5FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97753DB82A61BD74002E5FFD /* Assets.xcassets */; };
 		97753DBC2A61BD74002E5FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97753DBA2A61BD74002E5FFD /* LaunchScreen.storyboard */; };
 		97753DC72A61BD74002E5FFD /* calculadora_de_gorjetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DC62A61BD74002E5FFD /* calculadora_de_gorjetaTests.swift */; };
 		97753DD12A61BD74002E5FFD /* calculadora_de_gorjetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DD02A61BD74002E5FFD /* calculadora_de_gorjetaUITests.swift */; };
-		97753DD32A61BD74002E5FFD /* calculadora_de_gorjetaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DD22A61BD74002E5FFD /* calculadora_de_gorjetaUITestsLaunchTests.swift */; };
+		97753DE12A61BE23002E5FFD /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 97753DE02A61BE23002E5FFD /* CombineCocoa */; };
+		97753DE42A61BE7D002E5FFD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 97753DE32A61BE7D002E5FFD /* SnapKit */; };
+		97753DE72A61C17F002E5FFD /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 97753DE62A61C17F002E5FFD /* CombineCocoa */; };
+		97753DEA2A61C1CD002E5FFD /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 97753DE92A61C1CD002E5FFD /* SnapshotTesting */; };
+		97753DEC2A61C1F7002E5FFD /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 97753DEB2A61C1F7002E5FFD /* CombineCocoa */; };
+		97753DEF2A61C79F002E5FFD /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DEE2A61C79F002E5FFD /* LogoView.swift */; };
+		97753DF12A61CA41002E5FFD /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DF02A61CA41002E5FFD /* ResultView.swift */; };
+		97753DF32A61CA7A002E5FFD /* BillInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DF22A61CA7A002E5FFD /* BillInputView.swift */; };
+		97753DF52A61CAA1002E5FFD /* TipInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DF42A61CAA1002E5FFD /* TipInputView.swift */; };
+		97753DF72A61CAC4002E5FFD /* SplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DF62A61CAC4002E5FFD /* SplitInputView.swift */; };
+		97753DFA2A61D0DD002E5FFD /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DF92A61D0DD002E5FFD /* ThemeColor.swift */; };
+		97753DFC2A61D0F2002E5FFD /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DFB2A61D0F2002E5FFD /* ThemeFont.swift */; };
+		97753DFF2A61D15A002E5FFD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753DFE2A61D15A002E5FFD /* UIColor+Extension.swift */; };
+		97753E022A61DA28002E5FFD /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E012A61DA28002E5FFD /* LabelFactory.swift */; };
+		97753E042A61E816002E5FFD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E032A61E816002E5FFD /* UIView+Extension.swift */; };
+		97753E062A62B995002E5FFD /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E052A62B995002E5FFD /* AmountView.swift */; };
+		97753E092A645504002E5FFD /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E082A645504002E5FFD /* Tip.swift */; };
+		97753E0B2A64554C002E5FFD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E0A2A64554C002E5FFD /* HeaderView.swift */; };
+		97753E0E2A6469D3002E5FFD /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E0D2A6469D3002E5FFD /* CalculatorVM.swift */; };
+		97753E102A646B95002E5FFD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E0F2A646B95002E5FFD /* Result.swift */; };
+		97753E142A647343002E5FFD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E132A647343002E5FFD /* String+Extension.swift */; };
+		97753E162A648077002E5FFD /* UIResponder+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E152A648077002E5FFD /* UIResponder+extension.swift */; };
+		97753E182A64902F002E5FFD /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E172A64902F002E5FFD /* Int+Extension.swift */; };
+		97753E1A2A656835002E5FFD /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E192A656835002E5FFD /* Double+Extension.swift */; };
+		97753E1D2A6572FB002E5FFD /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 97753E1C2A6572FB002E5FFD /* click.m4a */; };
+		97753E202A657335002E5FFD /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E1F2A657335002E5FFD /* AudioPlayerService.swift */; };
+		97753E222A65BA63002E5FFD /* calculadora_de_gorjetaSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E212A65BA63002E5FFD /* calculadora_de_gorjetaSnapshotTests.swift */; };
+		97753E242A662CCD002E5FFD /* ScreenIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E232A662CCD002E5FFD /* ScreenIdentifier.swift */; };
+		97753E252A662CCD002E5FFD /* ScreenIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E232A662CCD002E5FFD /* ScreenIdentifier.swift */; };
+		97753E272A6630BD002E5FFD /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97753E262A6630BD002E5FFD /* CalculatorScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +67,7 @@
 		97753DAC2A61BD73002E5FFD /* calculadora-de-gorjeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calculadora-de-gorjeta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97753DAF2A61BD73002E5FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97753DB12A61BD73002E5FFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97753DB32A61BD73002E5FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		97753DB62A61BD73002E5FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97753DB32A61BD73002E5FFD /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
 		97753DB82A61BD74002E5FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97753DBB2A61BD74002E5FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97753DBD2A61BD74002E5FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +75,30 @@
 		97753DC62A61BD74002E5FFD /* calculadora_de_gorjetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculadora_de_gorjetaTests.swift; sourceTree = "<group>"; };
 		97753DCC2A61BD74002E5FFD /* calculadora-de-gorjetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calculadora-de-gorjetaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97753DD02A61BD74002E5FFD /* calculadora_de_gorjetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculadora_de_gorjetaUITests.swift; sourceTree = "<group>"; };
-		97753DD22A61BD74002E5FFD /* calculadora_de_gorjetaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculadora_de_gorjetaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97753DEE2A61C79F002E5FFD /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		97753DF02A61CA41002E5FFD /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		97753DF22A61CA7A002E5FFD /* BillInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillInputView.swift; sourceTree = "<group>"; };
+		97753DF42A61CAA1002E5FFD /* TipInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipInputView.swift; sourceTree = "<group>"; };
+		97753DF62A61CAC4002E5FFD /* SplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInputView.swift; sourceTree = "<group>"; };
+		97753DF92A61D0DD002E5FFD /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		97753DFB2A61D0F2002E5FFD /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
+		97753DFE2A61D15A002E5FFD /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		97753E012A61DA28002E5FFD /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		97753E032A61E816002E5FFD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		97753E052A62B995002E5FFD /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
+		97753E082A645504002E5FFD /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		97753E0A2A64554C002E5FFD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		97753E0D2A6469D3002E5FFD /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
+		97753E0F2A646B95002E5FFD /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		97753E132A647343002E5FFD /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		97753E152A648077002E5FFD /* UIResponder+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+extension.swift"; sourceTree = "<group>"; };
+		97753E172A64902F002E5FFD /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		97753E192A656835002E5FFD /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		97753E1C2A6572FB002E5FFD /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		97753E1F2A657335002E5FFD /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		97753E212A65BA63002E5FFD /* calculadora_de_gorjetaSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculadora_de_gorjetaSnapshotTests.swift; sourceTree = "<group>"; };
+		97753E232A662CCD002E5FFD /* ScreenIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenIdentifier.swift; sourceTree = "<group>"; };
+		97753E262A6630BD002E5FFD /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97753DE12A61BE23002E5FFD /* CombineCocoa in Frameworks */,
+				97753DE42A61BE7D002E5FFD /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97753DE72A61C17F002E5FFD /* CombineCocoa in Frameworks */,
+				97753DEA2A61C1CD002E5FFD /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97753DEC2A61C1F7002E5FFD /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +138,7 @@
 				97753DC52A61BD74002E5FFD /* calculadora-de-gorjetaTests */,
 				97753DCF2A61BD74002E5FFD /* calculadora-de-gorjetaUITests */,
 				97753DAD2A61BD73002E5FFD /* Products */,
+				97753DE52A61C17F002E5FFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +155,17 @@
 		97753DAE2A61BD73002E5FFD /* calculadora-de-gorjeta */ = {
 			isa = PBXGroup;
 			children = (
+				97753E1E2A657325002E5FFD /* service */,
+				97753E1B2A6572C9002E5FFD /* resource */,
+				97753E0C2A6469B3002E5FFD /* view model */,
+				97753E072A6454E6002E5FFD /* model */,
+				97753E002A61DA13002E5FFD /* factory */,
+				97753DFD2A61D129002E5FFD /* extension */,
+				97753DF82A61D0C7002E5FFD /* config */,
+				97753DED2A61C76E002E5FFD /* view */,
 				97753DAF2A61BD73002E5FFD /* AppDelegate.swift */,
 				97753DB12A61BD73002E5FFD /* SceneDelegate.swift */,
-				97753DB32A61BD73002E5FFD /* ViewController.swift */,
-				97753DB52A61BD73002E5FFD /* Main.storyboard */,
+				97753DB32A61BD73002E5FFD /* CalculatorVC.swift */,
 				97753DB82A61BD74002E5FFD /* Assets.xcassets */,
 				97753DBA2A61BD74002E5FFD /* LaunchScreen.storyboard */,
 				97753DBD2A61BD74002E5FFD /* Info.plist */,
@@ -114,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				97753DC62A61BD74002E5FFD /* calculadora_de_gorjetaTests.swift */,
+				97753E212A65BA63002E5FFD /* calculadora_de_gorjetaSnapshotTests.swift */,
 			);
 			path = "calculadora-de-gorjetaTests";
 			sourceTree = "<group>";
@@ -122,9 +186,94 @@
 			isa = PBXGroup;
 			children = (
 				97753DD02A61BD74002E5FFD /* calculadora_de_gorjetaUITests.swift */,
-				97753DD22A61BD74002E5FFD /* calculadora_de_gorjetaUITestsLaunchTests.swift */,
+				97753E262A6630BD002E5FFD /* CalculatorScreen.swift */,
 			);
 			path = "calculadora-de-gorjetaUITests";
+			sourceTree = "<group>";
+		};
+		97753DE52A61C17F002E5FFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97753DED2A61C76E002E5FFD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				97753DEE2A61C79F002E5FFD /* LogoView.swift */,
+				97753DF02A61CA41002E5FFD /* ResultView.swift */,
+				97753DF22A61CA7A002E5FFD /* BillInputView.swift */,
+				97753DF42A61CAA1002E5FFD /* TipInputView.swift */,
+				97753DF62A61CAC4002E5FFD /* SplitInputView.swift */,
+				97753E052A62B995002E5FFD /* AmountView.swift */,
+				97753E0A2A64554C002E5FFD /* HeaderView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		97753DF82A61D0C7002E5FFD /* config */ = {
+			isa = PBXGroup;
+			children = (
+				97753DF92A61D0DD002E5FFD /* ThemeColor.swift */,
+				97753DFB2A61D0F2002E5FFD /* ThemeFont.swift */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		97753DFD2A61D129002E5FFD /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				97753DFE2A61D15A002E5FFD /* UIColor+Extension.swift */,
+				97753E032A61E816002E5FFD /* UIView+Extension.swift */,
+				97753E132A647343002E5FFD /* String+Extension.swift */,
+				97753E152A648077002E5FFD /* UIResponder+extension.swift */,
+				97753E172A64902F002E5FFD /* Int+Extension.swift */,
+				97753E192A656835002E5FFD /* Double+Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		97753E002A61DA13002E5FFD /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				97753E012A61DA28002E5FFD /* LabelFactory.swift */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
+		97753E072A6454E6002E5FFD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				97753E082A645504002E5FFD /* Tip.swift */,
+				97753E0F2A646B95002E5FFD /* Result.swift */,
+				97753E232A662CCD002E5FFD /* ScreenIdentifier.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		97753E0C2A6469B3002E5FFD /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				97753E0D2A6469D3002E5FFD /* CalculatorVM.swift */,
+			);
+			path = "view model";
+			sourceTree = "<group>";
+		};
+		97753E1B2A6572C9002E5FFD /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				97753E1C2A6572FB002E5FFD /* click.m4a */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		97753E1E2A657325002E5FFD /* service */ = {
+			isa = PBXGroup;
+			children = (
+				97753E1F2A657335002E5FFD /* AudioPlayerService.swift */,
+			);
+			path = service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +292,10 @@
 			dependencies = (
 			);
 			name = "calculadora-de-gorjeta";
+			packageProductDependencies = (
+				97753DE02A61BE23002E5FFD /* CombineCocoa */,
+				97753DE32A61BE7D002E5FFD /* SnapKit */,
+			);
 			productName = "calculadora-de-gorjeta";
 			productReference = 97753DAC2A61BD73002E5FFD /* calculadora-de-gorjeta.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +314,10 @@
 				97753DC42A61BD74002E5FFD /* PBXTargetDependency */,
 			);
 			name = "calculadora-de-gorjetaTests";
+			packageProductDependencies = (
+				97753DE62A61C17F002E5FFD /* CombineCocoa */,
+				97753DE92A61C1CD002E5FFD /* SnapshotTesting */,
+			);
 			productName = "calculadora-de-gorjetaTests";
 			productReference = 97753DC22A61BD74002E5FFD /* calculadora-de-gorjetaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -179,6 +336,9 @@
 				97753DCE2A61BD74002E5FFD /* PBXTargetDependency */,
 			);
 			name = "calculadora-de-gorjetaUITests";
+			packageProductDependencies = (
+				97753DEB2A61C1F7002E5FFD /* CombineCocoa */,
+			);
 			productName = "calculadora-de-gorjetaUITests";
 			productReference = 97753DCC2A61BD74002E5FFD /* calculadora-de-gorjetaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -215,6 +375,11 @@
 				Base,
 			);
 			mainGroup = 97753DA32A61BD73002E5FFD;
+			packageReferences = (
+				97753DDF2A61BE23002E5FFD /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				97753DE22A61BE7D002E5FFD /* XCRemoteSwiftPackageReference "SnapKit" */,
+				97753DE82A61C1CD002E5FFD /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 97753DAD2A61BD73002E5FFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +396,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97753E1D2A6572FB002E5FFD /* click.m4a in Resources */,
 				97753DBC2A61BD74002E5FFD /* LaunchScreen.storyboard in Resources */,
 				97753DB92A61BD74002E5FFD /* Assets.xcassets in Resources */,
-				97753DB72A61BD73002E5FFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +423,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97753DB42A61BD73002E5FFD /* ViewController.swift in Sources */,
+				97753E102A646B95002E5FFD /* Result.swift in Sources */,
+				97753E0E2A6469D3002E5FFD /* CalculatorVM.swift in Sources */,
+				97753E162A648077002E5FFD /* UIResponder+extension.swift in Sources */,
+				97753E182A64902F002E5FFD /* Int+Extension.swift in Sources */,
+				97753E242A662CCD002E5FFD /* ScreenIdentifier.swift in Sources */,
+				97753E062A62B995002E5FFD /* AmountView.swift in Sources */,
+				97753E142A647343002E5FFD /* String+Extension.swift in Sources */,
+				97753DB42A61BD73002E5FFD /* CalculatorVC.swift in Sources */,
+				97753E042A61E816002E5FFD /* UIView+Extension.swift in Sources */,
+				97753DEF2A61C79F002E5FFD /* LogoView.swift in Sources */,
+				97753DFA2A61D0DD002E5FFD /* ThemeColor.swift in Sources */,
+				97753DFF2A61D15A002E5FFD /* UIColor+Extension.swift in Sources */,
+				97753DF32A61CA7A002E5FFD /* BillInputView.swift in Sources */,
+				97753E202A657335002E5FFD /* AudioPlayerService.swift in Sources */,
+				97753DF12A61CA41002E5FFD /* ResultView.swift in Sources */,
 				97753DB02A61BD73002E5FFD /* AppDelegate.swift in Sources */,
+				97753DFC2A61D0F2002E5FFD /* ThemeFont.swift in Sources */,
 				97753DB22A61BD73002E5FFD /* SceneDelegate.swift in Sources */,
+				97753E1A2A656835002E5FFD /* Double+Extension.swift in Sources */,
+				97753E022A61DA28002E5FFD /* LabelFactory.swift in Sources */,
+				97753E092A645504002E5FFD /* Tip.swift in Sources */,
+				97753DF72A61CAC4002E5FFD /* SplitInputView.swift in Sources */,
+				97753DF52A61CAA1002E5FFD /* TipInputView.swift in Sources */,
+				97753E0B2A64554C002E5FFD /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97753DC72A61BD74002E5FFD /* calculadora_de_gorjetaTests.swift in Sources */,
+				97753E222A65BA63002E5FFD /* calculadora_de_gorjetaSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +463,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97753DD32A61BD74002E5FFD /* calculadora_de_gorjetaUITestsLaunchTests.swift in Sources */,
+				97753E252A662CCD002E5FFD /* ScreenIdentifier.swift in Sources */,
 				97753DD12A61BD74002E5FFD /* calculadora_de_gorjetaUITests.swift in Sources */,
+				97753E272A6630BD002E5FFD /* CalculatorScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		97753DB52A61BD73002E5FFD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97753DB62A61BD73002E5FFD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		97753DBA2A61BD74002E5FFD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +621,6 @@
 				INFOPLIST_FILE = "calculadora-de-gorjeta/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +647,6 @@
 				INFOPLIST_FILE = "calculadora-de-gorjeta/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,6 +774,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		97753DDF2A61BE23002E5FFD /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		97753DE22A61BE7D002E5FFD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		97753DE82A61C1CD002E5FFD /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97753DE02A61BE23002E5FFD /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97753DDF2A61BE23002E5FFD /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		97753DE32A61BE7D002E5FFD /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97753DE22A61BE7D002E5FFD /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		97753DE62A61C17F002E5FFD /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97753DDF2A61BE23002E5FFD /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		97753DE92A61C1CD002E5FFD /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97753DE82A61C1CD002E5FFD /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		97753DEB2A61C1F7002E5FFD /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97753DDF2A61BE23002E5FFD /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 97753DA42A61BD73002E5FFD /* Project object */;
 }
